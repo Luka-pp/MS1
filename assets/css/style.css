@@ -13,6 +13,13 @@ body{
 
 
 /*--------------------------------------------------Nav*/
+.navbar{
+    min-height: 75px;
+    
+}
+.navbar .nav-link{
+    font-size: 0.9rem;
+}
 
 /*--------------------------------------------------Carousel*/
 .carousel-item{
@@ -50,17 +57,30 @@ body{
     text-align: center;
     margin-top: auto;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 2rem;
 }
 
 /*--------------------------------------------------Footer*/
 
 footer {
-    background-color: #525252;
-    color: #fafafa;
+    background-color: #f8f5f0;
+    color: darkslategray;
     min-height: 120px;
     margin: 0;
+    padding-top: 2rem;
+    
+}
+.copyright{
+    text-align: center;
+}
+.social {
+    text-align: center;
 }
 
+/*--------------------------------------------------Media Querys*/
 
-
+@media only screen and (min-width: 93rem) {
+  body {
+    min-width: 90%;
+  }
+}
