@@ -9,7 +9,9 @@ body{
     
 
 /*--------------------------------------------------Colors*/
-
+body{
+    background-color: #f8f5f0;
+}
 
 
 /*--------------------------------------------------Nav*/
@@ -19,6 +21,8 @@ body{
 
 }
 .navbar .nav-link{
+    font-family: 'Roboto Slab', serif ;
+    font-weight: 550;
     font-size: 0.9rem;
     color: #fafafa;
 }
@@ -42,7 +46,9 @@ body{
     background-color: #fff;
     margin-bottom: 5px;
 }
-
+.active{
+    text-decoration: underline;
+}
 
 /*--------------------------------------------------Carousel*/
 .carousel-item{
@@ -58,6 +64,21 @@ body{
     transition: .4s;
     color: #ebc57f ;
     text-decoration: underline;
+}
+/*--------------------------------------------------Buttons*/
+.btn{
+    background-color: #654435;
+    border-radius: 1.9rem;
+    color: #ebc57f;
+    height: 2.5rem;
+    width: 9rem;
+}
+.btn:hover{
+    background-color: #ebc57f;
+    border-radius: 1.9rem;
+    color: #654435;
+    height: 2.5rem;
+    width: 9rem;
 }
 
 /*--------------------------------------------------Cards*/
@@ -77,8 +98,8 @@ body{
 .jumbotron{
     text-align: center;
     margin-top: auto;
-    padding-top: 2em;
-    padding-bottom: 2rem;
+    padding-top: 0em;
+    padding-bottom: 0rem;
 }
 
 /*--------------------------------------------------Footer*/
@@ -128,7 +149,14 @@ footer {
     .list-inline-item{
         font-size: 0.5rem;
     }
-    
+    .cardsltd{
+        display: block;         
+        margin: auto;        
+    }
+    .cardsltd h3{
+        font-size: 1rem;
+        text-align: center;
+    }
 }
 @media only screen and (min-width: 48rem) {
     .display-4{
@@ -140,4 +168,16 @@ footer {
     .list-inline-item{
         font-size: 0.8rem;
     }
+}
+/*--------------------------------------------------Special Paddings*/
+.containerpl{
+    padding-top: 13rem;
+    padding-bottom: 5rem;
+}
+.cardsltd{
+    padding-bottom: 2rem;
+}
+.tandc{
+    padding-top: 13rem;
+    padding-bottom: 13rem;
 }
