@@ -15,11 +15,34 @@ body{
 /*--------------------------------------------------Nav*/
 .navbar{
     min-height: 75px;
-    
+    background-color: #654435;
+
 }
 .navbar .nav-link{
     font-size: 0.9rem;
+    color: #fafafa;
 }
+.nav-link:hover{
+    transition: .4s;
+    color: #ebc57f ;
+    text-decoration: none;
+
+}
+
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #ebc57f;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
 
 /*--------------------------------------------------Carousel*/
 .carousel-item{
@@ -33,10 +56,8 @@ body{
 }
 .carousel-link:hover{
     transition: .4s;
-    color: #fafafa ;
-    background-color:rgba(52,58,64,0.7);
-    border-radius: 8px;
-    text-decoration: none;
+    color: #ebc57f ;
+    text-decoration: underline;
 }
 
 /*--------------------------------------------------Cards*/
@@ -63,8 +84,8 @@ body{
 /*--------------------------------------------------Footer*/
 
 footer {
-    background-color: #f8f5f0;
-    color: darkslategray;
+    background-color: #654435;
+    color: #ebc57f;
     min-height: 120px;
     margin: 0;
     padding-top: 2rem;
@@ -76,7 +97,19 @@ footer {
 .social {
     text-align: center;
 }
-
+.fa{
+    color: #ebc57f;
+}
+.fa:hover{
+    color: #fafafa;
+}
+.list-inline-item a{
+    text-decoration: none;
+    color: #ebc57f;
+}
+.list-inline-item a:hover{
+    color: #fafafa;
+}
 /*--------------------------------------------------Media Querys*/
 
 @media only screen and (min-width: 93rem) {
