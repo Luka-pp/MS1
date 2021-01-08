@@ -6,7 +6,16 @@ body{
     font-family: 'Merriweather', sans-serif;
 }
 
+.text1{
     
+    font-family: 'Roboto Slab', serif ;
+    text-align: left;
+    
+}
+.text1 h4{
+    line-height: 1.875rem;
+    font-weight: 500;
+}
 
 /*--------------------------------------------------Colors*/
 body{
@@ -137,6 +146,12 @@ footer {
   body {
     min-width: 90%;
   }
+  .cardsltd{
+      padding: 4rem;
+  }
+  .col-6 h4 h5{
+      margin: 0 auto;
+  }
 }
 @media only screen and (max-width: 49rem) {
       .display-4 {
@@ -151,11 +166,19 @@ footer {
     }
     .cardsltd{
         display: block;         
-        margin: auto;        
+        margin: 0 auto;        
     }
     .cardsltd h3{
         font-size: 1rem;
         text-align: center;
+    }
+    .col-6{
+        display: block;
+        text-align: center;
+        margin: 25px auto;
+    }
+    .text1 h4{
+        font-size: 1rem;
     }
 }
 @media only screen and (min-width: 48rem) {
@@ -180,4 +203,32 @@ footer {
 .tandc{
     padding-top: 13rem;
     padding-bottom: 13rem;
+}
+.text1 {
+    
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/*--------------------------------------------------Images*/
+.headshot{
+   width: 165px;
+   height: 165px;
+   border-radius: 50%;
+}
+/*--------------------------------------------------Google maps*/
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
 }
