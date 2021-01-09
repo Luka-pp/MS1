@@ -100,8 +100,22 @@ Wireframes are done by pen and paper which can be seen [Here](/assets/doc/wirefr
 
 ### Surface Plane
 
+* Colors
 
+For navigation and footer backgroud the color used is **#654435 / darkolivegreen**
 
+Color of some fonts and the color of links and buttons on hover is **#ebc573 / burlywood**
+
+Background Color of entire website is **#f8f5f0 /whitesmoke**
+
+* Typography
+
+Throughout the website two font families are used
+
+**Merriweather**
+**Roboto Slab**
+
+Fonts are obtained from Google Fonts.
 
 ## Features
 
