@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Roboto+Slab&display=swap');
 
 /*--------------------------------------------------Typography*/
@@ -39,7 +38,6 @@ body{
     transition: .4s;
     color: #ebc57f ;
     text-decoration: none;
-
 }
 
 .navbar-toggler{
@@ -237,4 +235,13 @@ position:absolute;
 }
 
 
+/*--------------------------------------------------Forms*/
 
+
+ .field{
+    padding-top: 1rem;
+    margin-top: 4px;
+}
+.btnform {
+    padding-bottom: 2rem;
+}

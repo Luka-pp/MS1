@@ -54,43 +54,57 @@
                 looking for a career change or simply looking for a new job, fill out the form below and we will get in
                 touch for a potential openings!</h3>
 
-
-            <div class="center-form p-3">
-                <form>
-                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
-                        required />
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <label class="input-group-text" for="inputGroupSelect01">Select Industry</label>
-                        </div>
-                        <select class="custom-select" id="inputGroupSelect01">
-                            <option selected>Choose...</option>
-                            <option value="1">Hospitality</option>
-                            <option value="2">Pharmacy</option>
-                            <option value="3">Retail</option>
-                        </select>
-                    </div>
-                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject"
-                        required />
-                    <textarea rows="5" name="textmessage" id="textmessage" class="form-control"
-                        placeholder="Your Message" required></textarea>
-                    <div class="form-group">
-                        <label for="CVattach">Atach Your CV</label>
-                        <input type="file" class="form-control-file" id="CVattach">
-                    </div>
-                    <div class="form-row text-center">
-                        <div class="col">
-                            <button type="submit" class="btn btn-secondary">Send</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-
         </div>
     </div>
+    <div>
+        <form>
+            <div class="field">
+                <label for="name"> Name: </label>
+                <input type="text" name="name" id="fullname" class="form-control" placeholder="Enter Your name"
+                    required />
+            </div>
+            <div class="field">
+                <label for="email"> Email: </label>
+                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+            </div>
+            <div class="field">
+                <label for="custom-select"> Select Your Industry: </label>
+                <div class="input-group">
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Choose...</option>
+                        <option value="1">Hospitality</option>
+                        <option value="2">Pharmacy</option>
+                        <option value="3">Retail</option>
+                    </select>
+                </div>
+            </div>
+            <div class="field">
+                <label for="subject"> Subject: </label>
+                <input type="text" name="subject" id="subject" class="form-control" placeholder="Enter Subject"
+                    required />
+            </div>
+            <div class="field">
+                <label for="textmessage"> Message: </label>
+                <textarea rows="5" name="textmessage" id="textmessage" class="form-control"
+                    placeholder="Enter Your Message" required></textarea>
+            </div>
+            <div class="field">
+                <div class="form-group">
+                    <label for="CVattach">Attach Your CV</label>
+                    <input type="file" class="form-control-file" id="CVattach">
+                </div>
+            </div>
+            <div class="btnform">
+                <div class="form-row text-center">
+                    <div class="col">
+                        <button type="submit" class="btn btn-secondary ">Send</button>
+                    </div>
+                </div>
+            </div>
+        </form>
 
 
+    </div>
 
 
     <footer>
