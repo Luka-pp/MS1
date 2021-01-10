@@ -14,87 +14,92 @@
 </head>
 
 <body class="container">
-    <nav class="navbar navbar-expand-lg ">
-        <a href="index.html">
-            <img src="./assets/img/logo1.png" width="190" height="50" alt="logo image">
-        </a>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <a href="index.html">
+                <img src="./assets/img/logo1.png" width="190" height="50" alt="logo image">
+            </a>
 
-        <button class="navbar-toggler collapsed" data-target="#navbarSupportedContent" data-toggle="collapse">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-        </button>
+            <button class="navbar-toggler collapsed" data-target="#navbarSupportedContent" data-toggle="collapse">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
 
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Home </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="employers.html">Employers </a>
-                </li>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="employers.html">Employers </a>
+                    </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="job-seekers.html">Job Seekers </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="contact-us.html">Contact Us <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-            </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="job-seekers.html">Job Seekers </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact-us.html">Contact Us <span
+                                class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="row bg-color-contact">
+            <div class="col p-5">
+                <h3 class="contact-heading uppercase text-center"> If You have any questions or inquiries about us or
+                    the
+                    services we provide just fill out a form bellow and we will get back to You as soon as possible!
+                </h3>
+
+
+            </div>
+        </div>
+        <form>
+            <div class="field">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="fullname" class="form-control" placeholder="Enter Your name"
+                    required />
+            </div>
+            <div class="field">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Enter Your email"
+                    required />
+            </div>
+            <div class="field">
+                <label for="subject">Subject:</label>
+                <input type="text" name="subject" id="subject" class="form-control" placeholder="Enter subject"
+                    required />
+            </div>
+            <div class="field">
+                <label for="textmessage">Your Message:</label>
+                <textarea rows="5" name="textmessage" id="textmessage" class="form-control"
+                    placeholder="Enter Your message" required></textarea>
+            </div>
+            <div class="form-row text-center">
+                <div class="col p-3">
+                    <button type="submit" class="btn btn-secondary">Send</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col">
+                <h4 class="text-center">
+                    If You prefer to talk over the phone bellow are contact details on which you can reach us!
+                </h4>
+            </div>
 
         </div>
-    </nav>
-
-
-    <div class="row bg-color-contact">
-        <div class="col p-5">
-            <h3 class="contact-heading uppercase text-center"> If You have any questions or inquiries about us or the
-                services we provide just fill out a form bellow and we will get back to You as soon as possible!</h3>
-
-
-        </div>
-    </div>
-                <form>
-                    <div class="field">
-                        <label for="name">Name: </label>
-                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Enter Your name" required />
-                    </div>
-                    <div class="field">
-                        <label for="email">Email:</label>
-                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Enter Your email"
-                        required />
-                        </div>
-                        <div class="field">
-                            <label for="subject">Subject:</label>
-                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Enter subject"
-                        required />
-                        </div>
-                        <div class="field">
-                            <label for="textmessage">Your Message:</label>
-                    <textarea rows="5" name="textmessage" id="textmessage" class="form-control"
-                        placeholder="Enter Your message" required></textarea>
-                        </div>
-                    <div class="form-row text-center">
-                        <div class="col p-3">
-                            <button type="submit" class="btn btn-secondary">Send</button>
-                        </div>
-                    </div>
-                </form>
-           
-    <div class="row">
-        <div class="col">
-            <h4 class="text-center">
-                If You prefer to talk over the phone  bellow are contact details on which you can reach us!
-            </h4>
-        </div>
-
-    </div>
-    <div class="row cardsltd">
-            <div class="col-6"> 
+        <div class="row cardsltd">
+            <div class="col-6">
                 <h3 class="text-center">
                     Luka Petrovic <br>
                     085 215 6582 <br>
@@ -108,9 +113,9 @@
                     paul@oraclerecruitment.ie
                 </h3>
             </div>
-    </div>
+        </div>
 
-
+    </main>
     <footer>
         <div class="col-12">
             <div class="row">
