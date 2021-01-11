@@ -160,6 +160,7 @@ Fonts are obtained from Google Fonts.
 * [MDB](https://mdbootstrap.com/) for google maps
 * [Am I Responsive](http://ami.responsivedesign.is/) for a responisve image in Read Me
 * [Soda PDF](https://www.sodapdf.com/txt-to-pdf/) to convert text file to PDF
+* Relevant text, address, logo and any other details on the Oracle recruitment is the ownership of Oracle Recruitment
 
 ## Testing 
 
