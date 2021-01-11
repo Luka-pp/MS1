@@ -1,4 +1,4 @@
-![Logo Image](/assets/img/logo.png) 
+![Logo Image](/assets/img/logo1.png) 
 
 # Oralce Recruitment
 
