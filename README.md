@@ -6,6 +6,8 @@ For my **Milestone Project 1** on **Code Institute's Diploma in Software Develop
 Oracle Recruitment is a  start-up recruitment company based in co. Kildare. 
 
 For link to the website click [Here](https://luka-pp.github.io/MS1/)
+GitHub repository can be accesed [Here](https://github.com/Luka-pp/MS1)
+
 
 Design has been focused to **Mobile First** and **Responsive**.
 
@@ -187,6 +189,7 @@ Hamburger toggler button was not centered and that was fixed by adding some addi
 The deploymentof website has been carriedout via GitHub by following their instructions.
 
 The website is deployed on GitHub Pages. and can be accesed via link [Here](https://luka-pp.github.io/MS1/)
+GitHub repository can be accesed [Here](https://github.com/Luka-pp/MS1)
 
 
 ## Oracle recruitment
