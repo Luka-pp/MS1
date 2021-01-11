@@ -130,7 +130,8 @@ Fonts are obtained from Google Fonts.
 
 * Jobs Board page with current job openings
 * carousel with the jobs on the home page
-* Google map to show exact position of the company
+* Google map to show exact position of the Company
+* Contact forms to work properly, store, and forward inputted data
 * cookie pop up baner
 * Covid-19 Pop up banner (to raise awarenes)
 
@@ -157,3 +158,40 @@ Fonts are obtained from Google Fonts.
 * [MDB](https://mdbootstrap.com/) for google maps
 * [Am I Responsive](http://ami.responsivedesign.is/) for a responisve image in Read Me
 * [Soda PDF](https://www.sodapdf.com/txt-to-pdf/) to convert text file to PDF
+
+## Testing 
+
+### Validators
+
+The website has been through W3C Jigsaw validation wit 2 errors. 
+The errors are located inside bootstrap CDN and I have no control over it.
+* URI : https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/sandstone/bootstrap.min.css
+* 12	abbr[title], abbr[data-original-title]	Property text-decoration-skip-ink doesn't exist : none
+* 12	.accordion	Property overflow-anchor doesn't exist : none
+
+Website has been through W3C HTML Validator and there is no issues to report.
+
+
+### Local Testing
+
+Local testing of all the buttons, links and functionality of the website has been carried out.
+There was few links which needed to be fixed and that has been done. 
+
+While testing forms I have discovered that all the fields are not being focused on when clicked. 
+That has been fixed by matching ID in label and in input lines.
+
+Hamburger toggler button was not centered and that was fixed by adding some additional CSS to it.
+
+## Deployment 
+
+The deploymentof website has been carriedout via GitHub by following their instructions.
+
+The website is deployed on GitHub Pages. and can be accesed via link [Here](https://luka-pp.github.io/MS1/)
+
+
+## Oracle recruitment
+
+As one of the owners and directors of Oralce Recruitment company I will use this project as a starting point for the 
+companies website. In the following lessons i will further expand on website's functionality and practical usage.
+All the items listed as features left to implement will be inplemented in future and the website will be hosted on
+our Digital Ocean server which currently hosts the Wordpress website for the company. 
