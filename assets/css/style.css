@@ -143,6 +143,59 @@ footer {
 .list-inline-item a:hover{
     color: #ebc57f;
 }
+
+/*--------------------------------------------------Special Paddings*/
+.containerpl{
+    padding-top: 13rem;
+    padding-bottom: 5rem;
+}
+.cardsltd{
+    padding-bottom: 2rem;
+}
+.tandc{
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+}
+.text1 {
+    
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/*--------------------------------------------------Images*/
+.headshot{
+   width: 165px;
+   height: 165px;
+   border-radius: 50%;
+}
+/*--------------------------------------------------Google maps*/
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+/*--------------------------------------------------Forms*/
+
+
+ .field{
+    padding-top: 1rem;
+    margin-top: 4px;
+}
+.btnform {
+    padding-bottom: 2rem;
+}
+
 /*--------------------------------------------------Media Querys*/
 
 @media only screen and (min-width: 93rem) {
@@ -216,56 +269,4 @@ footer{
     .list-inline-item{
         font-size: 0.8rem;
     }
-}
-/*--------------------------------------------------Special Paddings*/
-.containerpl{
-    padding-top: 13rem;
-    padding-bottom: 5rem;
-}
-.cardsltd{
-    padding-bottom: 2rem;
-}
-.tandc{
-    padding-top: 13rem;
-    padding-bottom: 13rem;
-}
-.text1 {
-    
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-/*--------------------------------------------------Images*/
-.headshot{
-   width: 165px;
-   height: 165px;
-   border-radius: 50%;
-}
-/*--------------------------------------------------Google maps*/
-.map-container{
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
-}
-.map-container iframe{
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
-}
-
-
-/*--------------------------------------------------Forms*/
-
-
- .field{
-    padding-top: 1rem;
-    margin-top: 4px;
-}
-.btnform {
-    padding-bottom: 2rem;
 }
