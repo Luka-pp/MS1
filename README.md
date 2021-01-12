@@ -52,7 +52,7 @@ together with the external testing company.
 * On navigation there is a link to About Us page where user can learn more about the company
 * Contact Us page is designed so that user can send a general query
 * Privacy Policy and Cookie Policy are available in PDF format located on the footer links (same throughout the whole website)
-* Company's address tgether with the map (Google maps) is available at teh bottom of about us page. Also accesible through link in the carousel(Find Us Here)
+* Company's address tgether with the map (Google maps) is available at the bottom of about us page. Also accesible through link in the carousel (Find Us Here)
 
 #### Employers Perspective
 
@@ -162,6 +162,7 @@ Background Color of entire website is **#f8f5f0 /whitesmoke**
 Throughout the website two font families are used
 
 **Merriweather**
+
 **Roboto Slab**
 
 Fonts are obtained from Google Fonts.
