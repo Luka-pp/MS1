@@ -6,7 +6,6 @@ For my **Milestone Project 1** on **Code Institute's Diploma in Software Develop
 Oracle Recruitment is a  start-up recruitment company based in co. Kildare. 
 
 For link to the website click [Here](https://luka-pp.github.io/MS1/)
-GitHub repository can be accesed [Here](https://github.com/Luka-pp/MS1)
 
 
 Design has been focused to **Mobile First** and **Responsive**.
@@ -32,6 +31,46 @@ employers to find their staff. It connects the user with recruitment agent, who 
 The company also provides psychometric testings for the candidates, which is useful for future employers.
 In case an employer wants to do the psychometric testing for one of their candidate, agent can also perform this task 
 together with the external testing company.
+
+## User Experience
+
+### User Stories
+
+#### From Job Seekers Perspective
+
+* As a user I want to be able to navigate clearly and logically throughout website
+* As a user I want to send my CV to the Recruitment Agency 
+* As a user I want to learn more about the company
+* As a user I want to send a general query to the Recruitment Agency
+* As a user I want to see privacy policy and cookie policy
+* As a user I want to be able to find a location of the company 
+
+#### Job Seekers Perspective Fulfilment
+
+* Navigation, Foooter and the pages content are layed out in a clear and logical way to guide user to his/hers desired location
+* User have an option on Job Seekers page to attach the CV and send it to  Recruitment Agency
+* On navigation there is a link to About Us page where user can learn more about the company
+* Contact Us page is designed so that user can send a general query
+* Privacy Policy and Cookie Policy are available in PDF format located on the footer links (same throughout the whole website)
+* Company's address tgether with the map (Google maps) is available at teh bottom of about us page. Also accesible through link in the carousel(Find Us Here)
+
+#### Employers Perspective
+
+* As a user I want to be able to navigate clearly and logically throughout website
+* As a user I want to be able to contact Recruitment Agency regarding collaboration and partnership
+* As a user I want to find out what Terms and Conditions the Recruitment agency have
+* As a user I want to find out who are the employees of the Recruitment Agency
+* As a user I want to find out who is the hoilding company of Oracle Recruitment
+
+#### Employers Perspective Fulfilment
+
+* Navigation, Foooter and the pages content are layed out in a clear and logical way to guide user to his/hers desired location
+* Employers Page of the website is designed to connect the employers and recruitment agency
+* Footer link Terms And Conditions will direct user to a contact us page where the user can request up to date terms and conditions
+* About us page is designed to introduce the company and its employees to the user
+* P&L Oracle Limited link in the footer will direct user to a page where relevant details are published
+
+
 
 ## UX 5 Planes
 
@@ -193,12 +232,28 @@ That has been fixed by matching ID in label and in input lines.
 
 Hamburger toggler button was not centered and that was fixed by adding some additional CSS to it.
 
-## Deployment 
 
-The deployment of website has been carried out via GitHub by following their instructions.
+## Version Control
 
-The website is deployed on GitHub Pages and can be accesed via link [Here](https://luka-pp.github.io/MS1/)
-GitHub repository can be accesed [Here](https://github.com/Luka-pp/MS1)
+### Git & GitHub
+
+I used **[GitPod](https://gitpod.io/)** as a local repository and IDE and **[GitHub](https://github.com/)** as a remote repository. The process of version control was:
+
+* First i created a new repository on GitHub 
+* I have then opened that repository on GitPod and started coding
+* In GitPod i have created all the pages and and folders 
+* I was then saving my work and pushing it to GitHub repository to keep it safe
+* Process for saving, commiting and pushing it to remote repository goes as follows (done in terminal):
+*   * git add . / for adding work to git
+    * git commit -m "Commit message" / to commit the work on the stage
+    * git push / to update work to GitHub
+
+## Deployment
+
+To deploy the website, I followed the below steps on [GitHub](https://github.com/).
+1. Go to **"Settings"** on the repository
+2. On **"Source"** of **"GitHub Pages"**, select **"master** for Branch and click save
+3. The website is now published on GitHub Pages and the link is provided on on the same section
 
 
 ## Oracle recruitment
