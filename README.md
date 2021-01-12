@@ -216,7 +216,7 @@ Fonts are obtained from Google Fonts.
 
 Website has been tested in Google Chrome, Microsoft Edge, Safari, Firefox and Opera. 
 
-It was tested on two mobile devices OnePlus and Apple Iphone. Both thsts confirmed taht website works great.
+It was tested on two mobile devices OnePlus and Apple Iphone. Both thsts confirmed that website works great.
 
 On each browser the website works as inteded visually and all the functionality of the website works as intended.
 
