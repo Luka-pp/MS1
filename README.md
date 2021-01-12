@@ -250,8 +250,8 @@ It also responded on each breakpoint that were set up on Media Query's and no vi
 
 ##### Issue
 
-Bigest issue that i have encountered was the responsivenes of the carousel images. The images look perfact (as intended) on mobile and on tablet screens.
-The issue is happening with desktop and large deskrtop screens where images might look a bit streched. 
+Bigest issue that I have encountered was the responsivenes of the carousel images. The images look perfact (as intended) on mobile and on tablet screens.
+The issue is happening with desktop and large desktop screens where images might look a bit streched. 
 This project was focused on mobile first design so the images look perfect on mobile and medium devices. I have made sure that they are acceptable on large and extra large screens.
 
 ## Version Control
