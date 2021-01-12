@@ -248,7 +248,7 @@ Hamburger toggler button was not centered and that was fixed by adding some addi
 I used Google Chrome Dev Tools to check the responsiveness of website. Mobile, tablet and desktop sizes were tested and all worked well. 
 It also responded on each breakpoint that were set up on Media Query's and no visual or functional errors found
 
-##### issues
+##### Issue
 
 Bigest issue that i have encountered was the responsivenes of the carousel images. The images look perfact (as intended) on mobile and on tablet screens.
 The issue is happening with desktop and large deskrtop screens where images might look a bit streched. 
