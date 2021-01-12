@@ -212,6 +212,16 @@ Fonts are obtained from Google Fonts.
 
 ## Testing 
 
+### Browser Testing
+
+Website has been tested in Google Chrome, Microsoft Edge, Safari, Firefox and Opera. 
+
+It was tested on two mobile devices OnePlus and Apple Iphone. Both thsts confirmed taht website works great.
+
+On each browser the website works as inteded visually and all the functionality of the website works as intended.
+
+
+
 ### Validators
 
 The website has been through W3C Jigsaw validation with 2 errors. 
@@ -233,6 +243,16 @@ That has been fixed by matching ID in label and in input lines.
 
 Hamburger toggler button was not centered and that was fixed by adding some additional CSS to it.
 
+### Responsiveness
+
+I used Google Chrome Dev Tools to check the responsiveness of website. Mobile, tablet and desktop sizes were tested and all worked well. 
+It also responded on each breakpoint that were set up on Media Query's and no visual or functional errors found
+
+##### issues
+
+Bigest issue that i have encountered was the responsivenes of the carousel images. The images look perfact (as intended) on mobile and on tablet screens.
+The issue is happening with desktop and large deskrtop screens where images might look a bit streched. 
+This project was focused on mobile first design so the images look perfect on mobile and medium devices. I have made sure that they are acceptable on large and extra large screens.
 
 ## Version Control
 
