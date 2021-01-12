@@ -1,6 +1,6 @@
 ![Logo Image](/assets/img/logo1.png) 
 
-# Oralce Recruitment
+# Oracle Recruitment
 
 For my **Milestone Project 1** on **Code Institute's Diploma in Software Developement** course I have created a recruitment company website.
 Oracle Recruitment is a  start-up recruitment company based in co. Kildare. 
@@ -30,7 +30,7 @@ employees with their new employers and vice versa.
 The website serves as a connection hub in between employers and employees. It helps employees to find the job and
 employers to find their staff. It connects the user with recruitment agent, who then selects the suitable course of action.
 The company also provides psychometric testings for the candidates, which is useful for future employers.
-In case an employer wants to do the psychometric testing for one of their candidate, agent can also perform thit task 
+In case an employer wants to do the psychometric testing for one of their candidate, agent can also perform this task 
 together with the external testing company.
 
 ## UX 5 Planes
